@@ -110,7 +110,7 @@ function App() {
           handleFavorite={favoriteNameFromList}
         />
         {filteredList.length > 0 &&
-          <div className="pagination p-10-20">
+          <div className="pagination">
             {Array.from({ length: Math.ceil(filteredList.length / 4) }, (_, i) => i + 1)
               .map(item =>
                 <a

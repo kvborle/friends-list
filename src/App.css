@@ -86,6 +86,8 @@ button {
   display: flex;
   max-width: 375px;
   overflow-x: scroll;
+  padding: 10px 0px;
+  margin: 0px 20px;
 }
 
 .pagination a {
