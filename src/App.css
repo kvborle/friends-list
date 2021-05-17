@@ -20,9 +20,12 @@ input:focus {
 
 button {
   background-color: white;
-  border: 2px solid lightgray;
-  border-radius: 6px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
   cursor: pointer;
+  padding: 0 10px;
+  height: 28px;
+  align-self: center;
 }
 
 .main-container {
